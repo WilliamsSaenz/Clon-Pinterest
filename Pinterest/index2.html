@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Clon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="part1">
+            <a href="https://www.pinterest.com.mx/"><img src="imagenes/logo.png" alt=""></a>
+            <a href="https://www.pinterest.com.mx/">Inicio</a>
+            <a href="https://www.pinterest.com.mx/today/">Hoy</a>
+            <a href="">Crear</a>        
+        </div>
+        <div class="searcher">
+            <p class="search-logo"><img src="imagenes/lupa.jfif" alt=""></p>
+            <input type="text">
+        </div>
+        <div class="part2">
+            <a href="#"><img src="imagenes/notificacion.png" alt=""></a>
+            <a href="#"><img src="imagenes/msj2.png" alt=""></a>
+            <a href="#"><img src="imagenes/perfil2.png" alt=""></a>
+            </div>
+    </header>
+
+    <main id="content">
+        <div>
+            <img class="card-image" src="https://picsum.photos/900/500" alt="" width="900" height="500">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/600/900" alt="" width="600" height="900">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/950/600" alt="" width="950" height="600">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/400/900" alt="" width="400" height="900">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/700/500" alt=""width="700" height="500">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/800/910" alt=""width="800" height="910">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/900/800" alt=""width="900" height="800">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/500/500" alt=""width="500" height="500">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/800/800" alt=""width="800" height="800">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/700/800" alt=""width="700" height="800">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/600/900" alt=""width="600" height="900">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/800/500" alt="" width="800" height="500">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/700/900" alt=""width="700" height="900">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/500/500" alt="" width="500" height="500">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/600/800" alt="" width="600" height="800">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/900/900" alt="" width="900" height="900">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/800/500" alt="" width="800" height="500">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/700/600" alt="" width="700" height="600">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/700/900" alt="" width="700" height="900">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/800/600" alt="" width="800" height="600">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/500/600" alt="" width="500" height="600">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/800/700" alt="" width="800" height="700">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/600/800" alt="" width="600" height="800">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/900/500" alt="" width="900" height="500">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/600/600" alt="" width="600" height="600">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/700/900" alt="" width="700" height="900">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/600/500" alt="" width="600" height="500">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/600/700" alt="" width="600" height="700">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/500/900" alt="" width="500" height="900">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/900/600" alt=""width="900" height="600">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/900/700" alt="" width="900" height="700">
+        </div>
+        <div>
+            <img class="card-image" src="https://picsum.photos/700/500" alt="" width="700" height="500">
+        </div>
+    </main>
+    
+    <script>
+        var elem = document.querySelector('#content');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.card-image',
+  columnWidth: 230
+});
+    </script>
+</body>
+</html>

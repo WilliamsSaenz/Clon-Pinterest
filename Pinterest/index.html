@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Clon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="grid-container">
+        <img class="grid-item" src="https://picsum.photos/900/500" alt="">
+        <img class="grid-item" src="https://picsum.photos/600/900" alt="">
+        <img class="grid-item" src="https://picsum.photos/950/600" alt="">
+        <img class="grid-item" src="https://picsum.photos/400/900" alt="">
+        <img class="grid-item" src="https://picsum.photos/700/500" alt="">
+        <img class="grid-item" src="https://picsum.photos/800/910" alt="">
+        <img class="grid-item" src="https://picsum.photos/900/800" alt="">
+        <img class="grid-item" src="https://picsum.photos/500/500" alt="">
+        <img class="grid-item" src="https://picsum.photos/800/800" alt="">
+        <img class="grid-item" src="https://picsum.photos/700/800" alt="">
+        <img class="grid-item" src="https://picsum.photos/600/900" alt="">
+        <img class="grid-item" src="https://picsum.photos/800/500" alt="">
+        <img class="grid-item" src="https://picsum.photos/900/700" alt="">
+        <img class="grid-item" src="https://picsum.photos/900/600" alt="">
+        <img class="grid-item" src="https://picsum.photos/700/900" alt="">
+        <img class="grid-item" src="https://picsum.photos/500/500" alt="">
+        <img class="grid-item" src="https://picsum.photos/600/800" alt="">
+        <img class="grid-item" src="https://picsum.photos/900/900" alt="">
+        <img class="grid-item" src="https://picsum.photos/800/500" alt="">
+        <img class="grid-item" src="https://picsum.photos/700/600" alt="">
+        <img class="grid-item" src="https://picsum.photos/700/900" alt="">
+        <img class="grid-item" src="https://picsum.photos/800/600" alt="">
+        <img class="grid-item" src="https://picsum.photos/500/600" alt="">
+        <img class="grid-item" src="https://picsum.photos/800/700" alt="">
+        <img class="grid-item" src="https://picsum.photos/600/800" alt="">
+        <img class="grid-item" src="https://picsum.photos/900/500" alt="">
+        <img class="grid-item" src="https://picsum.photos/600/600" alt="">
+        <img class="grid-item" src="https://picsum.photos/700/900" alt="">
+        <img class="grid-item" src="https://picsum.photos/600/500" alt="">
+        <img class="grid-item" src="https://picsum.photos/600/700" alt="">
+        <img class="grid-item" src="https://picsum.photos/500/900" alt="">
+        <img class="grid-item" src="https://picsum.photos/700/500" alt="">
+    </main>
+    <script src="https://unpkg/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script>
+        var elem = document.querySelector(".grid-container");
+        var msnry = new Masonry(elem, {
+            // options
+            itemSelector: ".grid-item",
+            columnWidth: 230,
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+header{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+header img{
+  height: 300px;
+}
+
+header .searcher{
+  border: 1px solid gray;
+  border-radius: 24px;
+  padding: 8px 12px;
+  height: 60px;
+  width: 1000px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+header .part1{
+  font-size: 90px;
+}
+header .part1 a{
+  display: inline-flex;
+  color: black;
+}
+
+header .part1 img{
+  height: 100px;
+}
+
+header .part2 img{
+  height: 200px;
+}
+
+header .searcher img{
+  height: 60px;
+}
+
+header .searcher{
+  display: flex;
+  align-self: center;
+}
+
+header .searcher input{
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: x-large;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 20px;
+    justify-content: center;
+  /*  grid-template-rows: masonry; */
+    margin: 0 auto;
+}
+
+.card-image{
+  /* width: 230px;
+     height: 200px;*/
+    object-fit: cover; 
+    margin-bottom: 40px;
+    border-radius: 15px;
+    cursor: zoom-in;
+    background-color: lightgray;
+}
+
+.card-image:hover {
+    filter: opacity(0.7);
+}
